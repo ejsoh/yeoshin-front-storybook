@@ -1,10 +1,6 @@
-import React from "react";
-import { Button } from "./Button";
-import { BlockButton } from "./BlockButton";
-import { IconButton } from "./IconButton";
-import { IconButtonWithText } from "./IconButtonWithText";
+import { Category } from "./Category";
 
-export type ButtonProps = {
+export type CategoryProps = {
 	title?: string | undefined;
 	small?: boolean | undefined;
 	large?: boolean | undefined;
@@ -32,4 +28,4 @@ export type ButtonProps = {
 	onClick?: () => void | undefined;
 };
 
-export { Button, BlockButton, IconButton, IconButtonWithText };
+export { Category };

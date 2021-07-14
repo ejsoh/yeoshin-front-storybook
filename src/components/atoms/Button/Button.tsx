@@ -2,24 +2,10 @@ import React from "react";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import styled from "@emotion/styled/macro";
-
-export type ButtonProps = {
-	small?: boolean | undefined;
-	large?: boolean | undefined;
-	medium?: boolean | undefined;
-	filled?: boolean | undefined;
-	noBorder?: boolean | undefined;
-	gray?: boolean | undefined;
-	filledGray?: boolean | undefined;
-	filledBlack?: boolean | undefined;
-	round?: boolean | undefined;
-	iconRight?: boolean | undefined;
-	padding?: number | undefined;
-	minWidth?: number | undefined;
-	custom?: string | undefined;
-};
+import { ButtonProps } from ".";
 
 const ButtonBaseStyle = css`
+	cursor: pointer;
 	min-width: 100px;
 	min-height: 28px;
 	font-size: 14px;
@@ -101,9 +87,14 @@ const iconRight = css`
 `;
 
 /**
- * `Button` 컴포넌트
+`Button` 컴포넌트
  *
- * - default 100% width
+ * 
+ * ####Primary Button component for Yeoshin Design System 
+ * - Default
+ * - BlockButton
+ * - IconButton
+ * - SelectButton
  */
 
 export const Button = styled.button<ButtonProps>`
@@ -135,18 +126,19 @@ const ButtonContainer = styled.div`
 		border-radius: 0;
 	}
 `;
-export const FixedButton = ({
-	title,
-	...rest
-}: {
-	title: string;
-	onClick: () => void;
-}) => {
-	return (
-		<ButtonContainer>
-			<Button filled large {...rest}>
-				{title}
-			</Button>
-		</ButtonContainer>
-	);
-};
+
+// export const FixedButton = ({
+// 	title,
+// 	...rest
+// }: {
+// 	title: string;
+// 	onClick: () => void;
+// }) => {
+// 	return (
+// 		<ButtonContainer>
+// 			<Button filled large {...rest}>
+// 				{title}
+// 			</Button>
+// 		</ButtonContainer>
+// 	);
+// };

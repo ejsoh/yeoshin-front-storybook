@@ -1,7 +1,6 @@
 import { Text } from "components/atoms/Message";
 import styled from "@emotion/styled/macro";
 import React from "react";
-
 import { Column, Row } from "components/atoms/Grid";
 import { SpaceContainer } from "components/atoms/Spacing";
 import { Button } from "components/atoms";
@@ -40,6 +39,7 @@ const ReviewPopUp = () => {
 		});
 		window.location.href = "https://yeoshin.co.kr/?pn=mypage.order.list";
 	}, [mainStore.getData().myPopup.length > 0]);
+
 	return (
 		<EventPopContainer>
 			<Column>

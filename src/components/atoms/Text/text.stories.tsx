@@ -3,7 +3,7 @@ import { Text } from "./index";
 import { object, withKnobs } from "@storybook/addon-knobs";
 
 export default {
-	title: "Text",
+	title: "BASE/Text",
 	component: Text,
 	decorators: [withKnobs],
 };

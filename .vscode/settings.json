@@ -1,0 +1,16 @@
+{
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0,
+  "prettier.tabWidth": 4,
+  "prettier.endOfLine": "auto",
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

@@ -4,7 +4,7 @@ import { object, withKnobs } from "@storybook/addon-knobs";
 import { actions } from "@storybook/addon-actions";
 
 export default {
-	title: "Icon",
+	title: "BASE/Icon",
 	component: Icon,
 	decorators: [withKnobs],
 };
