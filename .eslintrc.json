@@ -1,0 +1,117 @@
+{
+	"overrides": [
+		{
+			// Disable unnessesary retrun type.
+			"files": [
+				"src/**",
+				"src/components/**/*.tsx",
+				"src/pages/**/*.tsx",
+				"src/pages/**/*.ts"
+			],
+			"rules": {
+				"@typescript-eslint/explicit-function-return-type": "off",
+				"explicit-function-return-type": "off",
+				"react-hooks/exhaustive-deps": "off",
+				"quotes": [
+					2,
+					"double",
+					{
+						"avoidEscape": true
+					}
+				]
+			}
+		},
+		{
+			// Disable unnessesary explicit any.
+			"files": [
+				"src/global.d.ts"
+			],
+			"rules": {
+				"@typescript-eslint/no-explicit-any": "off"
+			}
+		}
+	],
+	"plugins": [
+		"react",
+		"import",
+		"jsx-a11y",
+		"prettier",
+		"react-hooks",
+		"@typescript-eslint"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"project": "./tsconfig.json",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"jest": true
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"moduleDirectory": [
+					"node_modules",
+					"src"
+				],
+				"extensions": [
+					".js",
+					".jsx",
+					".ts",
+					".tsx"
+				]
+			}
+		},
+		"react": {
+			"version": "detect"
+		}
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/errors",
+		"plugin:react/recommended",
+		"prettier",
+		"prettier/react",
+		"plugin:prettier/recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier/@typescript-eslint"
+	],
+	"rules": {
+		"react/prop-types": 0,
+		"prettier/prettier": "error",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"import/no-unresolved": "off",
+		"import/named": "off",
+		"camelcase": "off",
+		"@typescript-eslint/camelcase": "off",
+		"no-use-before-define": "off",
+		"@typescript-eslint/no-use-before-define": "off",
+		// Ignores redundant type definitions.
+		"quotes": [
+			2,
+			"double",
+			{
+				"avoidEscape": true
+			}
+		],
+		// It is convenient to leave the argument information, so leave the definition even if it is unused.
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": [
+			"warn",
+			{
+				"args": "none"
+			}
+		],
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"explicit-function-return-type": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off"
+	}
+}

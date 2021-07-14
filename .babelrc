@@ -1,0 +1,38 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "emotion",
+        "@babel/plugin-proposal-optional-chaining",
+        [
+            "@babel/plugin-proposal-class-properties",
+            {
+                "loose": true
+            }
+        ],
+        [
+            "module-resolver",
+            {
+                "root": [
+                    "./"
+                ]
+            }
+        ],
+        [
+            "prismjs",
+            {
+                "languages": [
+                    "javascript",
+                    "css",
+                    "markup",
+                    "jsx"
+                ],
+                "plugins": [
+                    "line-numbers"
+                ]
+            }
+        ],
+        "react-loadable/babel"
+    ]
+}

@@ -1,0 +1,51 @@
+/* 한글 : NotoSans */
+
+@font-face {
+    font-family: "NS";
+    font-style: normal;
+    font-weight: 100;
+    src: local("NS"), url("./NotoSans/NotoSansKR-Thin.otf") format("opentype");
+    font-display: swap;
+    /*폰트 디스플레이*/
+    unicode-range: U+AC00- U+D7A3, U+0030-0039;
+}
+
+@font-face {
+    font-family: "NS";
+    font-style: normal;
+    font-weight: 300;
+    src: local("NS"), url("./NotoSans/NotoSansKR-DemiLight.otf") format("opentype");
+    font-display: swap;
+    /*폰트 디스플레이*/
+    unicode-range: U+AC00- U+D7A3, U+0030-0039;
+}
+
+@font-face {
+    font-family: "NS";
+    font-style: normal;
+    font-weight: 400;
+    src: local("NS"), url("./NotoSans/NotoSansKR-Regular.otf") format("opentype");
+    font-display: swap;
+    /*폰트 디스플레이*/
+    unicode-range: U+AC00- U+D7A3, U+0030-0039;
+}
+
+@font-face {
+    font-family: "NS";
+    font-style: normal;
+    font-weight: 500;
+    src: local("NS"), url("./NotoSans/NotoSansKR-Medium.otf") format("opentype");
+    font-display: swap;
+    /*폰트 디스플레이*/
+    unicode-range: U+AC00- U+D7A3, U+0030-0039;
+}
+
+@font-face {
+    font-family: "NS";
+    font-style: normal;
+    font-weight: 700;
+    src: local("NS"), url("./NotoSans/NotoSansKR-Bold.otf") format("opentype");
+    font-display: swap;
+    /*폰트 디스플레이*/
+    unicode-range: U+AC00- U+D7A3, U+0030-0039;
+}
