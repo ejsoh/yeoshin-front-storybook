@@ -1,4 +1,4 @@
-# 여신티켓 디자인시스템 
+# 여신티켓 프론트엔드 디자인시스템
 
 React.js with Typescript
 
