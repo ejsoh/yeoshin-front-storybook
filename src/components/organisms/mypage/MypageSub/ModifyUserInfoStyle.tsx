@@ -2,7 +2,7 @@ import styled from "@emotion/styled/macro";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { Link } from "react-router-dom";
 
 const WithDrawContainer = styled.div`

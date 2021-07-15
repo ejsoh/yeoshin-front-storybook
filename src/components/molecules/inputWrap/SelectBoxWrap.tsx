@@ -4,7 +4,7 @@ import { Label } from "components/atoms/Label/Label";
 import React from "react";
 import { Row } from "components/atoms/Grid";
 import { SelectBox } from "components/atoms/Input/SelectBox";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { ToggleEvent } from "../isShowEventWrap/isShowEvent";
 import { mapper } from "models/RootStore";
 import { observer } from "mobx-react-lite";

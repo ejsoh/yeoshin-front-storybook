@@ -2,7 +2,7 @@ import { useAuth } from "hooks";
 import { Button } from "components/atoms";
 import React from "react";
 import { getCookie } from "services/utils/cookies";
-import { pngImage } from "components/atoms/Icons/Icon";
+import { pngImage } from "components/atoms/Icon/Icon";
 import styled from "@emotion/styled/macro";
 import { getQueryParam } from "helper";
 

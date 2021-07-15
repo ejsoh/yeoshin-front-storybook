@@ -5,7 +5,7 @@ import { AxiosResponse } from "axios";
 import { NumberText } from "components/atoms/Typo/Typo";
 import React from "react";
 import { Space } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import ImageWrap from "components/molecules/imageWrap/ImageWrap";
 
 import { mapper } from "models/RootStore";

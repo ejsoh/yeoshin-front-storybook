@@ -1,5 +1,5 @@
 import { Column, Row } from "components/atoms/Grid";
-import { InputMessage, Text } from "components/atoms/Message";
+import { InputMessage, Text } from "components/atoms/Text";
 
 import { InputText } from "components/atoms";
 import { Label } from "components/atoms/Label/Label";

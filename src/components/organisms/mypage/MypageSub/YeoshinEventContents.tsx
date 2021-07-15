@@ -6,7 +6,7 @@ import { AxiosResponse } from "axios";
 import { useInjection, useLazyLoading } from "hooks";
 import { Icon } from "components/atoms";
 import { mapper } from "models/RootStore";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { observer } from "mobx-react-lite";

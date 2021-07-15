@@ -4,7 +4,7 @@ import { Button, Icon } from "components/atoms";
 import { NumberText } from "components/atoms/Typo/Typo";
 import React from "react";
 import { SearchDomain } from "pages/main/MainDomain";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { TitleLabel } from "../../main/mainComponents/TitleLabel";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";

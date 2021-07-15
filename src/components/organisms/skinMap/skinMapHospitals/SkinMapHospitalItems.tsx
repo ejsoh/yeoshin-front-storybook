@@ -2,7 +2,7 @@ import { Column, Row } from "components/atoms/Grid";
 import { NumberText } from "components/atoms/Typo/Typo";
 import React from "react";
 import { RootStoreModel } from "models/RootStore";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { observer } from "mobx-react-lite";

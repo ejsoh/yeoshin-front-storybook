@@ -1,5 +1,5 @@
 import { Column } from "components/atoms/Grid";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 import React from "react";
 import { SpaceContainer } from "components/atoms/Spacing";

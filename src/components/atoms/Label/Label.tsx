@@ -2,7 +2,7 @@ import React from "react";
 /** @jsxImportSource @emotion/react */
 import { css, SerializedStyles } from "@emotion/react";
 import styled from "@emotion/styled/macro";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 
 type LabeProps = {
 	text?: string;

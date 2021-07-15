@@ -13,6 +13,7 @@ module.exports = {
 	],
 	webpackFinal: async config => ({
 		...config,
+		...config.resolve.modules.push(path.resolve(__dirname, "../src")),
 		resolve: {
 			...config.resolve,
 			alias: {

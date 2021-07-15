@@ -7,7 +7,7 @@ import { RecommendKeyword } from "./searchComponents/RecommendKeyword";
 import { SearchDomain } from "pages/main/MainDomain";
 import { SearchInput } from "./searchComponents/SearchInput";
 import { SpaceBorder } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { TitleLabel } from "../main/mainComponents/TitleLabel";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";

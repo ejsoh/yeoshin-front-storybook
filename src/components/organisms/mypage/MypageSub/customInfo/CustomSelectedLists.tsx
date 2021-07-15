@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "components/atoms";
 import { useInjection } from "hooks";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { mapper } from "models/RootStore";
 import { observer } from "mobx-react-lite";
 import styled from "@emotion/styled/macro";

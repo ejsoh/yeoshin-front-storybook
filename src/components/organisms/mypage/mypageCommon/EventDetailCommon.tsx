@@ -6,7 +6,7 @@ import { AxiosResponse } from "axios";
 import React from "react";
 import { Reply } from "./Reply";
 import { ReviewDomain } from "pages/mypage/CommonDomain";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react/macro";
 import { mapper } from "models/RootStore";

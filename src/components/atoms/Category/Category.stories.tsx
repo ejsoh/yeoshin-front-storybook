@@ -5,27 +5,21 @@ import { Category } from "./Category";
 
 export const Default = (args: any) => {
 	return (
-		<Category
-			title={args.title}
-			onClick={action("onclick")}
-			disabled={args.disabled}
-		/>
+		<Category onClick={action("onclick")} disabled={args.disabled}>
+			카테고리
+		</Category>
 	);
 };
 
 Default.args = {
-	title: "카테고리",
 	disabled: false,
 };
 
 export default {
-	title: "BASE/Category",
+	title: "COMPONENT/Category",
 	component: Category,
 	decorators: [withKnobs],
 	argTypes: {
-		title: {
-			control: "text",
-		},
 		disabled: {
 			control: "boolean",
 		},

@@ -2,7 +2,7 @@ import { Button, Icon } from "components/atoms";
 import { Column, Row } from "components/atoms/Grid";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { SubTitle, SwitchButton, Title } from "../mypageCommon/MyPageAtoms";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import {
 	composeBodyData,
 	initBodyData,

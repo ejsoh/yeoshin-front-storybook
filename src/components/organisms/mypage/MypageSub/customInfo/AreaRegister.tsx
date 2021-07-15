@@ -4,7 +4,7 @@ import React from "react";
 import { removeDuplicateItems } from "helper";
 import { useInjection } from "hooks";
 import { AxiosResponse } from "axios";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { mapper } from "models/RootStore";
 import { observer } from "mobx-react-lite";

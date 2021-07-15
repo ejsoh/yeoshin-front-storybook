@@ -5,7 +5,7 @@ import { FindHospitalDomain } from "pages/mypage/FindHospitals";
 import { Icon } from "components/atoms";
 import React, { useCallback } from "react";
 import { Space } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { alternative } from "helper";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";

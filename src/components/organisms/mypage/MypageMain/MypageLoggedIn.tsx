@@ -4,7 +4,7 @@ import { CouponAndEventArea, MainIconContainer } from "./MyPageComponents";
 import React from "react";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { Link } from "react-router-dom";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { MyPageDomain } from "pages/mypage/MyPage";
 import { NumberText } from "components/atoms/Typo/Typo";
 import { ellipsis } from "helper";

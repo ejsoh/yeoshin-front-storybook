@@ -2,7 +2,7 @@ import { useAuth } from "hooks";
 import React from "react";
 import { Row, Column } from "components/atoms/Grid";
 import { SpaceContainer, Space } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { UserWish } from "./headerComponents/UserWish";
 import styled from "@emotion/styled/macro";
 import { Divider } from "components/atoms/Divider/Divider";

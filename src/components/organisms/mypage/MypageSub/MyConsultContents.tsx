@@ -5,7 +5,7 @@ import { AxiosResponse } from "axios";
 import { ConsultDomain } from "pages/mypage/MyConsultList";
 import { Icon } from "components/atoms";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { mapper } from "models/RootStore";

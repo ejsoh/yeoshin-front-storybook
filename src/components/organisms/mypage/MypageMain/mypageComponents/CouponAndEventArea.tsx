@@ -1,9 +1,9 @@
 import { Row } from "components/atoms/Grid";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
-import { Icon } from "components/atoms/Icons/Icon";
+import { Icon } from "components/atoms/Icon/Icon";
 import { NumberText } from "components/atoms/Typo/Typo";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 
 const CouponAndEventArea = ({
 	title,

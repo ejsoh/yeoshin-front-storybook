@@ -6,7 +6,7 @@ import { RootStoreModel } from "../../../models/RootStore";
 import { Row } from "components/atoms/Grid";
 import { SnsContainer } from "../sns";
 import { Space } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react/macro";
 import { observer } from "mobx-react-lite";

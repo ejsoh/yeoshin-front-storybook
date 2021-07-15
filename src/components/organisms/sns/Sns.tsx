@@ -9,7 +9,7 @@ import AppleLogin from "react-apple-login";
 import React, { useCallback } from "react";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Icon, pngImage } from "components/atoms/Icons/Icon";
+import { Icon, pngImage } from "components/atoms/Icon/Icon";
 import styled from "@emotion/styled/macro";
 import { useAuth } from "hooks";
 import { naverInitial } from "helper/snsHelper/naverLogin";

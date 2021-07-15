@@ -71,6 +71,7 @@ const EventList = () => {
 	React.useEffect(() => {
 		setEventLoading(!eventLoading);
 	}, []);
+
 	return (
 		<React.Suspense fallback={<RecommendLoadings />}>
 			<ToggleEvent condition={eventLoading}>

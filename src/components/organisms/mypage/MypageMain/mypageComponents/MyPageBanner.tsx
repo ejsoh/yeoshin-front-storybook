@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Space } from "components/atoms/Spacing";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 
 const MyPageBannerContainer = styled.div`

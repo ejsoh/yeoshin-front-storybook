@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled/macro";
 import { Column, Row } from "components/atoms/Grid";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { SpaceContainer } from "components/atoms/Spacing";
 import { observer } from "mobx-react-lite";
 import { useInjection } from "hooks";

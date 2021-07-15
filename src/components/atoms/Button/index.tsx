@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./Button";
 import { BlockButton } from "./BlockButton";
 import { IconButton } from "./IconButton";
-import { IconButtonWithText } from "./IconButtonWithText";
+import { IconTextButton } from "./IconTextButton";
 
 export type ButtonProps = {
 	title?: string | undefined;
@@ -29,7 +29,11 @@ export type ButtonProps = {
 	backgroundColor?: string | undefined;
 	border?: string | undefined;
 	disabled?: boolean | undefined;
+	children?: React.ReactNode | undefined;
+	color?: string | undefined;
+	space?: number[] | undefined;
+	reverse?: boolean | undefined;
 	onClick?: () => void | undefined;
 };
 
-export { Button, BlockButton, IconButton, IconButtonWithText };
+export { Button, BlockButton, IconButton, IconTextButton };

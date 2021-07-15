@@ -1,5 +1,5 @@
 import React from "react";
-import { ellipsisStyle } from "../Message";
+import { ellipsisStyle } from "../Text";
 /** JSX */
 import styled from "@emotion/styled/macro";
 import { switchProp } from "styled-tools";

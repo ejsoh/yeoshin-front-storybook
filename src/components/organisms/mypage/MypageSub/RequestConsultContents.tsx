@@ -6,7 +6,7 @@ import { InputWrap } from "components/molecules";
 import React from "react";
 import { RequestConsultDomain } from "pages/mypage/RequestConsult";
 import { Space } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { useFormHandler, useInjection } from "hooks";

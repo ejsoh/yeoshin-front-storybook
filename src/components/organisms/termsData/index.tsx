@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { TermsData } from "../termsData/TermsData";
 import { TextArea } from "components/atoms";
 import styled from "@emotion/styled/macro";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 
 const TermContainer = styled.div`
 	margin: 0 15px;

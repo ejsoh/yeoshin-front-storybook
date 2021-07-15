@@ -40,10 +40,10 @@ const Border = styled.div`
  * - Default
  */
 
-export const Category = ({ title, disabled, onClick }: CategoryProps) => {
+export const Category = ({ children, disabled, onClick }: CategoryProps) => {
 	return (
 		<CategoryStyle onClick={onClick} disabled={disabled}>
-			{title}
+			{children}
 			<Border />
 		</CategoryStyle>
 	);

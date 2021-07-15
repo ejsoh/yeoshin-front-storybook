@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "components/atoms";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { Space } from "components/atoms/Spacing";
 import { Column } from "components/atoms/Grid";
 /** @jsxImportSource @emotion/react */

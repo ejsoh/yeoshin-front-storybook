@@ -3,8 +3,11 @@ import React from "react";
 import { css } from "@emotion/react";
 import styled from "@emotion/styled/macro";
 import { ButtonProps } from "./index";
+import { Icon } from "../Icon";
+import { Text } from "../Text";
+import { Space } from "../Spacing";
 
-const IconButtonWithTextStyle = styled.button<ButtonProps>`
+const IconTextButtonStyle = styled.button<ButtonProps>`
 	cursor: pointer;
 	box-sizing: border-box;
 	border: none;
@@ -16,8 +19,10 @@ const IconButtonWithTextStyle = styled.button<ButtonProps>`
 	color: white;
 	font-size: 15px;
 	padding: 8px 12px;
+	${props => props.reverse && "flex-direction:row-reverse"};
 	${props => props.width && `width : ${props.width}px`};
 	${props => props.height && `height : ${props.height}px`};
+	${props => props.space && `padding: ${props.space[0]}px ${props.space[1]}px`};
 	${props =>
 		props.margin &&
 		`margin: ${props.margin[0]}px ${props.margin[1]}px ${props.margin[2]}px ${props.margin[3]}px`};
@@ -27,29 +32,33 @@ const IconButtonWithTextStyle = styled.button<ButtonProps>`
 	${props => props.border && `border : 1px solid ${props.border}`};
 `;
 
-export const IconButtonWithText = ({
-	title,
+// NOTE : 아이콘과 텍스트가 존재하는 버튼
+// NOTE : 방향 default는 아이콘이 오른쪽 / reverse하면 아이콘이 왼쪽
+export const IconTextButton = ({
+	children,
 	width,
 	height,
 	margin,
+	space,
 	round,
 	backgroundColor,
 	border,
-	iconName,
-	iconSize,
+	reverse,
 	onClick,
 }: ButtonProps) => {
 	return (
-		<IconButtonWithTextStyle
+		<IconTextButtonStyle
 			width={width}
 			height={height}
 			margin={margin}
+			space={space}
 			round={round}
 			backgroundColor={backgroundColor}
 			border={border}
+			reverse={reverse}
 			onClick={onClick}
 		>
-			{/* <Icon icon={iconName} size={iconSize} /> */}
-		</IconButtonWithTextStyle>
+			{children}
+		</IconTextButtonStyle>
 	);
 };

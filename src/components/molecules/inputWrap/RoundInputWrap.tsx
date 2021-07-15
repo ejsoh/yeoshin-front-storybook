@@ -1,5 +1,5 @@
 import { Column, Row } from "components/atoms/Grid";
-import { InputMessage } from "components/atoms/Message";
+import { InputMessage } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 import { InputText } from "components/atoms";
 import { Label } from "components/atoms/Label/Label";

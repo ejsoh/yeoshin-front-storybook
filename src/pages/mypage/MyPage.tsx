@@ -14,7 +14,7 @@ import { MypageNotLoggedIn } from "components/organisms/mypage/MypageMain/Mypage
 import React from "react";
 import { Seo } from "helper";
 import { SpaceContainer } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 
 import { logout } from "services";
 import { mapper } from "models/RootStore";

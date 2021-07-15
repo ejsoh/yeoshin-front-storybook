@@ -5,7 +5,7 @@ import { observer } from "mobx-react-lite";
 import styled from "@emotion/styled/macro";
 import { useInjection } from "hooks";
 import { useScrollInto } from "hooks/useScrollInto";
-import { Text, textCommon } from "components/atoms/Message";
+import { Text, textCommon } from "components/atoms/Text";
 import { Icon } from "components/atoms";
 
 export const ValidationText = styled(Text)`

@@ -1,4 +1,4 @@
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 import React from "react";
 import { Column, Row } from "components/atoms/Grid";

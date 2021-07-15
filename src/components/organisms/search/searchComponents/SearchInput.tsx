@@ -13,7 +13,7 @@ import { searchKeyword } from "services/utils/analystics/googleAnalystics";
 import { Column, Row } from "components/atoms/Grid";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { SelectedMenu } from "components/molecules/menu/SelectedMenu";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { useState } from "react";
 import { UnSelectedMenu } from "components/molecules/menu/UnSelectedMenu";
 import { Divider } from "components/atoms/Divider/Divider";

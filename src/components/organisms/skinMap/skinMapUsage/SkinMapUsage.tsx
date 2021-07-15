@@ -4,7 +4,7 @@ import { RootStoreModel } from "models/RootStore";
 import { Row } from "components/atoms/Grid";
 import { Space } from "components/atoms/Spacing";
 import { Swipe, ToggleEvent } from "components/molecules";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { observer } from "mobx-react-lite";

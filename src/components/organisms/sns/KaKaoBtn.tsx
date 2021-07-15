@@ -2,7 +2,7 @@ import { Icon } from "components/atoms";
 import { KAKAOTALK_ID } from "constantDatas/snsLoginInfo";
 import React from "react";
 import { Space } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import styled from "@emotion/styled/macro";

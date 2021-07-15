@@ -6,7 +6,7 @@ import { AxiosResponse } from "axios";
 import { MyPointListDomain } from "pages/mypage/MyPointList";
 import { Pagination } from "components/molecules";
 import { SpaceContainer } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { mapper } from "models/RootStore";

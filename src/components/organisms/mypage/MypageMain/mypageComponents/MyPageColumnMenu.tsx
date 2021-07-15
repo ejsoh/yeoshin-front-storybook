@@ -1,7 +1,7 @@
 import { Column, Row } from "components/atoms/Grid";
 import { Space } from "components/atoms/Spacing";
 import { useAuth } from "hooks";
-import { Icon } from "components/atoms/Icons/Icon";
+import { Icon } from "components/atoms/Icon/Icon";
 import { NumberText } from "components/atoms/Typo/Typo";
 import React from "react";
 /** @jsxImportSource @emotion/react */

@@ -28,7 +28,7 @@ const BlockButtonStyle = styled.button<ButtonProps>`
 `;
 
 export const BlockButton = ({
-	title,
+	children,
 	width,
 	height,
 	margin,
@@ -47,7 +47,7 @@ export const BlockButton = ({
 			border={border}
 			onClick={onClick}
 		>
-			{title}
+			{children}
 		</BlockButtonStyle>
 	);
 };

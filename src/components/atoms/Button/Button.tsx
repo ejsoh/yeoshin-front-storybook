@@ -94,7 +94,7 @@ const iconRight = css`
  * - Default
  * - BlockButton
  * - IconButton
- * - SelectButton
+ * - IconTextButton
  */
 
 export const Button = styled.button<ButtonProps>`
@@ -127,18 +127,18 @@ const ButtonContainer = styled.div`
 	}
 `;
 
-// export const FixedButton = ({
-// 	title,
-// 	...rest
-// }: {
-// 	title: string;
-// 	onClick: () => void;
-// }) => {
-// 	return (
-// 		<ButtonContainer>
-// 			<Button filled large {...rest}>
-// 				{title}
-// 			</Button>
-// 		</ButtonContainer>
-// 	);
-// };
+export const FixedButton = ({
+	title,
+	...rest
+}: {
+	title: string;
+	onClick: () => void;
+}) => {
+	return (
+		<ButtonContainer>
+			<Button filled large {...rest}>
+				{title}
+			</Button>
+		</ButtonContainer>
+	);
+};

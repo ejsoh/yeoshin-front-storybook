@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "components/atoms";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { mapper } from "models/RootStore";
 import { useInjection } from "hooks";

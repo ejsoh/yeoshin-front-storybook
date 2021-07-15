@@ -6,7 +6,7 @@ import { AxiosResponse } from "axios";
 import { CouponDomain } from "pages/mypage/UserCoupon";
 import { NumberText } from "components/atoms/Typo/Typo";
 import { RootStoreModel } from "models/RootStore";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import styled from "@emotion/styled/macro";

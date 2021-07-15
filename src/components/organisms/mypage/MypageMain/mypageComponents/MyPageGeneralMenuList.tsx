@@ -1,11 +1,11 @@
 import { Column, Row } from "components/atoms/Grid";
 import { Space } from "components/atoms/Spacing";
 import { useAuth, useInjection } from "hooks";
-import { Icon } from "components/atoms/Icons/Icon";
+import { Icon } from "components/atoms/Icon/Icon";
 import { KaKaoBtn } from "components/organisms/sns/KaKaoBtn";
 import { mapper } from "models/RootStore";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 import { Link } from "react-router-dom";
 

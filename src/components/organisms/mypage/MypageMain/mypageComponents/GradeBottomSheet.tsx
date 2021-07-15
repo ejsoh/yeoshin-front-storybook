@@ -1,10 +1,10 @@
 import { Column, Row } from "components/atoms/Grid";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { useInjection } from "hooks";
-import { Icon } from "components/atoms/Icons/Icon";
+import { Icon } from "components/atoms/Icon/Icon";
 import { MyPageDomain } from "pages/mypage/MyPage";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { mapper } from "models/RootStore";

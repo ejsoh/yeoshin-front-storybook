@@ -5,7 +5,7 @@ import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { AxiosResponse } from "axios";
 import { useInjection } from "hooks";
 import { mapper } from "models/RootStore";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { WishDomain } from "pages/mypage/WishList";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";

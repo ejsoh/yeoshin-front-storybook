@@ -1,9 +1,9 @@
 import { Column, Row } from "components/atoms/Grid";
 import { Link } from "react-router-dom";
 import { Space } from "components/atoms/Spacing";
-import { Icon } from "components/atoms/Icons/Icon";
+import { Icon } from "components/atoms/Icon/Icon";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 import { Countcommon } from "./commonStyle";
 import { useInjection } from "hooks";

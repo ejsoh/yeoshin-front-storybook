@@ -1,5 +1,5 @@
 import { ButtonProps } from "./index";
-import { Icon } from "../Icons/Icon";
+import { Icon } from "../Icon/Icon";
 import { css } from "@emotion/react";
 import styled from "@emotion/styled/macro";
 

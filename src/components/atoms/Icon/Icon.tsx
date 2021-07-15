@@ -49,6 +49,9 @@ export const color = (color: string) => {
 				"invert(96%) sepia(0%) saturate(0%) hue-rotate(168deg) brightness(104%) contrast(105%)"
 			);
 			break;
+		case "whiteFill" === color:
+			styles = attr("brightness(0%) invert(100%)");
+			break;
 
 		default:
 			styles = attr(
@@ -85,10 +88,16 @@ export const Icon = ({
 	event,
 	format = "svg",
 	url,
+	color,
 	...rest
 }: IconProps) => {
 	return (
-		<IconStyle size={size} onClick={() => event && event()} {...rest}>
+		<IconStyle
+			size={size}
+			onClick={() => event && event()}
+			color={color}
+			{...rest}
+		>
 			{url !== undefined ? (
 				<img src={url} className={icon} />
 			) : (

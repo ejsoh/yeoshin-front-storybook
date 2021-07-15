@@ -6,7 +6,7 @@ import React from "react";
 import { RootStoreModel } from "models/RootStore";
 import { Space } from "components/atoms/Spacing";
 import { Swipe } from "components/molecules/touchSwipeWrap/Swipe";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { observer } from "mobx-react-lite";

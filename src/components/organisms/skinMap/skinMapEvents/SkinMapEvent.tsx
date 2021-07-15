@@ -4,7 +4,7 @@ import React from "react";
 import { RootStoreModel } from "models/RootStore";
 import { SkinMapEventItems } from "./SkinMapEventItems";
 import { SkinMapHospitalEvent } from "./SkinMapHospitalEvent";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { observer } from "mobx-react-lite";

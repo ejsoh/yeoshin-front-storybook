@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { Column, Row } from "components/atoms/Grid";
 
 export const timeOutErrorMessage = (

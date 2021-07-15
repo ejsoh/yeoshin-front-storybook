@@ -5,7 +5,7 @@ import { removeDuplicateItemsByKey } from "helper";
 import { useInjection } from "hooks";
 import { SubTitle } from "../../mypageCommon/MyPageAtoms";
 import { AxiosResponse } from "axios";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { mapper } from "models/RootStore";

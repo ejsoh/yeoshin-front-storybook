@@ -7,7 +7,7 @@ import { Pagination } from "components/molecules";
 import React from "react";
 import { RootStoreModel } from "models/RootStore";
 import { SpaceContainer } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { ellipsis } from "helper";

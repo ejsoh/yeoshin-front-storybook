@@ -2,7 +2,7 @@ import { Button, Icon } from "components/atoms";
 import { Column, Row } from "components/atoms/Grid";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import React from "react";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { mapper } from "models/RootStore";
 import { observer } from "mobx-react-lite";
 import { useInjection } from "hooks";

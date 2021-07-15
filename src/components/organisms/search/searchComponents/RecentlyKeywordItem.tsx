@@ -2,7 +2,7 @@ import { Icon } from "components/atoms";
 import React from "react";
 import { Row } from "components/atoms/Grid";
 import { SearchDomain } from "pages/main/MainDomain";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { searchLinkUrl } from "constantDatas/linkUrls";

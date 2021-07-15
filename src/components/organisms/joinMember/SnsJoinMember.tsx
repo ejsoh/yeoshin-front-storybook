@@ -1,4 +1,4 @@
-import { Icon, isChecked } from "components/atoms/Icons/Icon";
+import { Icon, isChecked } from "components/atoms/Icon/Icon";
 import { InputWrap, InputWrapWithButton } from "components/molecules";
 import { useFormHandler, useInjection } from "hooks";
 import { Button } from "components/atoms";
@@ -6,7 +6,7 @@ import { Checkboxs } from "components/molecules/inputWrap/CheckBox";
 import React from "react";
 import { mapper } from "models/RootStore";
 import { Row } from "components/atoms/Grid";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { observer } from "mobx-react-lite";
 import { Space, SpaceContainer } from "components/atoms/Spacing";
 import { InputListContainer } from "components/molecules/inputWrap/InputListContainer";

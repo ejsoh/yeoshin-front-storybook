@@ -7,7 +7,7 @@ import { Icon } from "components/atoms";
 import React from "react";
 import { Row } from "components/atoms/Grid";
 import { SpaceContainer } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { ToggleEvent } from "components/molecules";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";

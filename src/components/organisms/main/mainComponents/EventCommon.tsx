@@ -8,7 +8,7 @@ import ImageWrap from "components/molecules/imageWrap/ImageWrap";
 import { NumberText } from "components/atoms/Typo/Typo";
 import React, { useCallback } from "react";
 import { SearchDomain } from "pages/main/MainDomain";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { ToggleEvent } from "components/molecules";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";

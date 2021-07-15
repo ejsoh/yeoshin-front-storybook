@@ -3,7 +3,7 @@ import { NumberText } from "components/atoms/Typo/Typo";
 import React, { useCallback, useEffect } from "react";
 import { Row } from "components/atoms/Grid";
 import { SpaceContainer } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { eventTracking } from "services/utils/analystics/amplitude";

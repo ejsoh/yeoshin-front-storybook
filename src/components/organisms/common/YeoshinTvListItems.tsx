@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import styled from "@emotion/styled/macro";
 import { Icon } from "components/atoms";
 import { Row } from "components/atoms/Grid";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { Space } from "components/atoms/Spacing";
 import { useLazyLoading } from "hooks";
 import { CountFormat } from "services/convert/CountFormat";

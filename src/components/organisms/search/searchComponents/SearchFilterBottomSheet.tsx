@@ -2,7 +2,7 @@ import { Column, Row } from "components/atoms/Grid";
 import { useAuth, useInjection } from "hooks";
 import React, { useCallback } from "react";
 import { Space, SpaceBorder, SpaceContainer } from "components/atoms/Spacing";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import { mapper } from "models/RootStore";

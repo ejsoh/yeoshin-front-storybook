@@ -1,6 +1,6 @@
 import { Button } from "./Button/Button";
-import { Icon } from "./Icons/Icon";
-import { InteractionIcon, SpinIcon } from "./Icons/InteractionIcon";
+import { Icon } from "./Icon/Icon";
+import { InteractionIcon, SpinIcon } from "./Icon/InteractionIcon";
 import {
 	MarkerBase,
 	MarkerContainer,
@@ -12,7 +12,7 @@ import {
 	LeftSectorIcon,
 	RightSectorIcon,
 	BottomSectorIcon,
-} from "./Icons/MapIcon";
+} from "./Icon/MapIcon";
 import { ImgWrapper } from "./ImgWrapper/ImgWrapper";
 // import { InputCheckbox } from "./Input/InputCheckbox/InputCheckbox";
 import { InputText } from "./Input/InputText/InputText";

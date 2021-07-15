@@ -3,7 +3,7 @@ import { Icon } from "components/atoms";
 import React, { useCallback } from "react";
 import styled from "@emotion/styled/macro";
 import { useHistory } from "react-router-dom";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { OnlyTruthyShow } from "components/molecules/isShowEventWrap/isShowEvent";
 
 const FooterContainer = styled(Row)`

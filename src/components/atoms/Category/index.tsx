@@ -1,7 +1,7 @@
 import { Category } from "./Category";
+import React from "react";
 
 export type CategoryProps = {
-	title?: string | undefined;
 	small?: boolean | undefined;
 	large?: boolean | undefined;
 	medium?: boolean | undefined;
@@ -25,6 +25,7 @@ export type CategoryProps = {
 	backgroundColor?: string | undefined;
 	border?: string | undefined;
 	disabled?: boolean | undefined;
+	children?: React.ReactNode | undefined;
 	onClick?: () => void | undefined;
 };
 

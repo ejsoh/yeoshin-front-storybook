@@ -5,7 +5,7 @@ import {
 	sexButton,
 } from "./ModifyUserInfoStyle";
 import { InputWrap, InputWrapWithButton } from "components/molecules";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { useFormHandler, useInjection } from "hooks";
 import { Button } from "components/atoms";
 import { Checkboxs } from "components/molecules/inputWrap/CheckBox";

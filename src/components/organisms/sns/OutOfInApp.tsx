@@ -3,7 +3,7 @@ import { useAuth } from "hooks";
 import React from "react";
 
 import { isMobile } from "react-device-detect";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import styled from "@emotion/styled/macro";
 import { EllipsisLoading } from "components/atoms/Loading/EllipsisLoading";
 import { Column } from "components/atoms/Grid";

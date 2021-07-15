@@ -9,7 +9,7 @@ import { RECAPTCHA_SITEKEY } from "constantDatas/common";
 import ReCAPTCHA from "react-google-recaptcha";
 import React from "react";
 import { ServicePartnerDomain } from "pages/mypage/ServicePartner";
-import { Text } from "components/atoms/Message";
+import { Text } from "components/atoms/Text";
 import { checkEmptyHelper } from "helper";
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
